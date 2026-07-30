@@ -29,10 +29,10 @@ const BookCanvas = ({ active, setActive }) => {
                 <div className="card1">
                     <div className="cover-text-wrapper">
                         <h4 className="username">
-                            Dear Trisha<span className="underline"></span>
+                            Dear Anvi ❤️ <span className="underline"></span>
                         </h4>
                         <h3 className="cover-title">
-                            Happy Birthday!
+                            Happy Girlfriend's day!
                         </h3>
                         <p className="cover-subtitle">
                             A purr-fect message just for you... 💌
@@ -66,14 +66,24 @@ const BookCanvas = ({ active, setActive }) => {
                             To You!
                         </h3>
 
-                        {/* Swapping back to H2 to match the original CSS targeting */}
-                        <div className="card2-message-text italic">
-                            <article style={{ marginBottom: '8px' }}>Happy Birthday, Trisha ❤️</article>
-                            <article style={{ marginBottom: '10px' }}>From the moment we met, something in my life shifted—like the universe quietly guiding me toward someone meant for me.You brought warmth into the parts of me I didn’t even know were cold, And you expanded my days with a dimension I can only call my own.</article>
-                            <article style={{ marginBottom: '10px' }}>On your birthday, I just want you to know this: I want you with me in every chapter, every storm, every sunshine, every tomorrow. No matter what comes, I’ll be on your side—always. I’ll choose you, protect you, stand with you, and love you in ways that remind you you’re never alone.</article>
-                            <article style={{ marginBottom: '10px' }}>You’re not just another year older today… <br />
-                                you’re the reason my life feels softer, brighter, and endlessly worth living. Happy Birthday.</article>
-                        </div>
+                       {/* Swapping back to H2 to match the original CSS targeting */}
+<div className="card2-message-text italic">
+    <article style={{ marginBottom: '8px' }}>
+        Happy Girlfriend's Day ❤️
+    </article>
+
+    <article style={{ marginBottom: '10px' }}>
+        Ever since you came into my life, everything has felt different in the most beautiful way. Before I met you, I never knew someone could make ordinary days feel so special. Your smile became my favorite sight, your voice became my comfort, and your happiness slowly became my own. You didn't just become a part of my life—you became the best part of it.
+    </article>
+
+    <article style={{ marginBottom: '10px' }}>
+        Thank you for loving me, believing in me, and standing beside me through everything. No matter what life brings us, I promise to always be by your side, to support you, protect you, make you laugh when you're sad, and remind you every single day how deeply you are loved. My heart chose you, and it will continue choosing you today, tomorrow, and forever.
+    </article>
+
+    <article style={{ marginBottom: '10px' }}>
+        Anvi, you are my safe place, my biggest blessing, and the most beautiful chapter of my life. I don't just want to celebrate today—I want to celebrate every moment I get to spend with you. Thank you for changing my world in ways words can never fully describe. I love you more than you'll ever know, and I can't wait to make a lifetime of memories with you. Happy Girlfriend's Day, my love. ❤️
+    </article>
+</div>
 
                         <div className="card2-decoration"></div> {/* Decoration */}
 
@@ -91,7 +101,7 @@ const BookCanvas = ({ active, setActive }) => {
                         <div className="confetti-dots"></div>
 
                         <p className="signature">
-                            Your Best Friend, Rexon
+                            Your Man, Yagya
                         </p>
                     </div>
                 </div>

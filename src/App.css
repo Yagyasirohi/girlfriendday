@@ -9,13 +9,15 @@
 }
 
 :root {
-    --color-pink: #feecea;
-    --color-white: #fff;
-    --color-black: #333;
-    --color-text-pink: #FF7882;
-    --color-heart: #FF7882;
-    --color-bg-letter: #fff8e4;
-    --color-border: #DACCBF;
+    --color-pink: #F4EEFF;
+    --color-white: #FFFFFF;
+    --color-black: #5A4E73;
+
+    --color-text-pink: #9D7FEA;
+    --color-heart: #B794F4;
+
+    --color-bg-letter: #FCFAFF;
+    --color-border: #D8C8F8;
 }
 
 body {
@@ -24,7 +26,13 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: linear-gradient(var(--color-pink), var(--color-pink));
+    background: linear-gradient(
+        135deg,
+        #F8F5FF,
+        #F3ECFF,
+        #ECE4FF,
+        #F8F5FF
+    );
 }
 
 #wrapper {
@@ -127,8 +135,12 @@ body {
 }
 
 #btn__letter:hover {
-    border-color: var(--color-heart);
-    background-color: var(--color-heart);
+    border-color: #8B5CF6;
+    background: linear-gradient(
+        45deg,
+        #A78BFA,
+        #8B5CF6
+    );
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

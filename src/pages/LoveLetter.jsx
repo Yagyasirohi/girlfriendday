@@ -4,43 +4,43 @@ const LoveLetter = () => {
     const lettersData = [
         {
             id: 1,
-            name: "Rexon",
-            msg: "Wish you the happiest birthday",
+            name: "Yagya",
+            msg: "Since our first conversation, you’ve been the quiet spark that changed my world, Now stop crying my bhooki Take this chocolate 🍫.",
         },
         {
             id: 2,
-            name: "Rexon",
-            msg: "One picture from you can change my whole day, my whole mood, my whole heartbeat.",
+            name: "Yagya",
+            msg: "One Kissi from you can change my whole day, my whole mood, my whole heartbeat 🫀.",
         },
         {
             id: 3,
-            name: "Rexon",
-            msg: "Even through screens and pixels, your laugh reaches me like sunlight through a window—warm, real, and impossible to forget.",
+            name: "Yagya",
+            msg: "And Yes Ill still love you if you were a stone my bhooki.",
         },
         {
             id: 4,
-            name: "Rexon",
-            msg: "Every notification from you feels like a heartbeat whispering, I’m here, and I love you.",
+            name: "Yagya",
+            msg: "Sorry If I ever hurted you but you mean the world to me 🫶.",
         },
         {
             id: 5,
-            name: "Rexon",
-            msg: "Our messages might travel through wires, but every word you send lands straight in my heart.",
+            name: "Yagya",
+            msg: "And You still didn;t tell me why you look so cute my baby girl 💕.",
         },
         {
             id: 6,
-            name: "Rexon",
-            msg: "Ever since our we met, my heart knew where it wanted to stay— with you, in every soft moment, every smile, every quiet piece of forever.",
+            name: "Yagya",
+            msg: "Ever since our we met, my heart knew where it wanted to stay— with you, in every soft moment, every smile, I just wanna be ur fav boy , ur man , ur bestfriend ❤️.",
         },
         {
             id: 7,
-            name: "Rexon",
-            msg: " but you turned it into a memory my heart refuses to forget. Since then, every moment with you has felt softer, brighter, and filled with a kind of peace only you bring.",
+            name: "Yagya",
+            msg: " I Promise ill meet you soon my love , I owe you so manny kisses and cuddles 🫂 .",
         },
         {
             id: 8,
-            name: "Rexon",
-            msg: "Since our first conversation, you’ve been the quiet spark that changed my world, turning ordinary days into moments that feel beautifully meant to be.",
+            name: "Yagya",
+            msg: "You are the bestttest girlfreind in the whole universe.",
         },
     ];
     const [openEnvelope, setOpenEnvelope] = useState(false);
@@ -127,7 +127,7 @@ const LoveLetter = () => {
                     <div className="munna envelope-flap text-black relative">
                         <div className='munna absolute left-1/2 top-[20%] -translate-x-1/2 flex items-center justify-center flex-col md:gap-y-2'>
                             <span className='munna font-sriracha md:text-2xl text-lg'>Envelope Of Love</span>
-                            <span className='munna font-dancingScript md:text-3xl text-xl'>Dear Trisha</span>
+                            <span className='munna font-dancingScript md:text-3xl text-xl'>Dear Anvi</span>
                         </div>
                     </div>
                     <div className="munna envelope-folds">
