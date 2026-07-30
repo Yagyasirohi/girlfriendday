@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import png from '../assets/1.png'
 import ballon1 from '../assets/balloon1.png'
 import ballon2 from '../assets/balloon2.png'
@@ -12,22 +12,6 @@ import SmallLetter from "../components/SmallLetter";
 import orihime from "../assets/orihime.jpg";
 
 const Home = () => {
-const audioRef = useRef(null);
-
-useEffect(() => {
-    const playMusic = () => {
-        if (audioRef.current) {
-            audioRef.current.play().catch(() => {});
-        }
-        document.removeEventListener("click", playMusic);
-    };
-
-    document.addEventListener("click", playMusic);
-
-    return () => {
-        document.removeEventListener("click", playMusic);
-    };
-}, []);
 
     // ------------------- Hooks 
     const [Active, SetActive] = useState(true)
@@ -207,9 +191,6 @@ useEffect(() => {
                 <section className="smallLetter absolute md:-bottom-26 -bottom-40 md:left-[45%] left-[50%] -translate-x-1/2" style={{ "--t": "15.6s" }}>
                     <SmallLetter />
                 </section>
-<audio ref={audioRef} loop>
-    <source src="/song.mp3" type="audio/mpeg" />
-</audio>
             </div>
         </>
     );
