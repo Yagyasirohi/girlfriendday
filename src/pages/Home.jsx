@@ -14,6 +14,13 @@ import orihime from "../assets/orihime.jpg";
 const Home = () => {
 const audioRef = useRef(null);
 
+useEffect(() => {
+    const playMusic = () => {
+        if (audioRef.current) {
+            audioRef.current.play().catch(() => {});
+        }
+        document.removeEventListener("click", playMusic);
+    };
 
     document.addEventListener("click", playMusic);
 
